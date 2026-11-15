@@ -33,7 +33,7 @@ Please check out the original project: **[ValerioLyndon/MAL-Public-List-Designs]
 1. Log in to MyAnimeList and go to **Profile → Edit Profile → List Design** (or **Settings → List → Style**).
 2. Select a **Modern** list layout.
 3. Open the **Custom CSS** section.
-4. Copy the contents of [`theme.css`](theme.css) and paste them into the CSS box.
+4. Copy the contents of [`layout.css`](layout.css) and paste them into the CSS box.
 5. Save and open your list to see the result.
 
 ---
