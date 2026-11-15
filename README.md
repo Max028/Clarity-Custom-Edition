@@ -14,7 +14,7 @@ A custom version of the **Clarity** theme for [MyAnimeList](https://myanimelist.
 
 ![Original Clarity](Clarity%20original.png)
 
-👉 **Live preview:** [my MyAnimeList list](https://myanimelist.net/profile/Max028)
+👉 **Live preview:** [my MyAnimeList list](https://myanimelist.net/animelist/Max028)
 
 ---
 
