@@ -1,0 +1,2 @@
+# Count layout.css as CSS: GitHub would otherwise treat its long lines as generated code
+*.css linguist-generated=false linguist-detectable=true
