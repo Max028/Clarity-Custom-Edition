@@ -2,6 +2,8 @@
 
 A custom version of the **Clarity** theme for [MyAnimeList](https://myanimelist.net), reworked with a more modern design.
 
+**Built with:** pure CSS · no JavaScript · works through MyAnimeList's *Custom CSS* field
+
 ## Screenshots
 
 **Custom Edition**
@@ -36,6 +38,21 @@ Please check out the original project: **[ValerioLyndon/MAL-Public-List-Designs]
 4. Copy the contents of [`layout.css`](layout.css) and paste them into the CSS box.
 5. Save and open your list to see the result.
 
+### Customization
+
+All the main settings are CSS variables at the top of [`layout.css`](layout.css), in the `:root` block:
+
+| Variable | What it changes |
+|---|---|
+| `--name` | Text shown over the cover image |
+| `--avatar` | Profile picture URL |
+| `--banner` | Default cover image URL (each list status can have its own, right below `:root`) |
+| `--accent` | Accent color for links and highlights |
+| `--watching`, `--completed`, `--onhold`, `--dropped`, `--plantowatch` | Status colors |
+| `--w` | Width of the list |
+
+Replace the image URLs with your own (for example uploaded to Imgur) to make the theme yours.
+
 ---
 
 ## Known issues
@@ -50,3 +67,11 @@ This is a work in progress, so there are probably still some small issues to fix
 - Customization: [Max028](https://myanimelist.net/profile/Max028), made with Claude
 
 This is a modified version shared in line with the original author's terms, which allow anyone to modify and use his themes as long as they don't claim credit for the originals.
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE), the same license as the original [MAL-Public-List-Designs](https://github.com/ValerioLyndon/MAL-Public-List-Designs) project. The copyright of the original Clarity theme stays with Valerio Lyndon.
+
+*Not affiliated with MyAnimeList.* MyAnimeList is a trademark of its respective owner.
